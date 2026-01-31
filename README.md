@@ -1,7 +1,3 @@
-Tentu, Edwin Iqbal Santoso, mari kita buatkan README.md yang profesional untuk repository kamu. File ini sangat krusial karena merupakan hal pertama yang akan dilihat oleh recruiter IDStar saat mereka mengecek profil GitHub kamu.
-
-Salin teks di bawah ini dan simpan sebagai file README.md di folder root (golang-id-star/):
-
 Fullstack Microservices - IDStar Technical Project
 Proyek ini dibangun sebagai bagian dari persiapan teknis untuk posisi Full Stack Developer di IDStar Group. Sistem ini mengimplementasikan arsitektur microservices menggunakan Golang di sisi backend dan React.js di sisi frontend, dengan seluruh infrastruktur berjalan di atas Docker.
 
