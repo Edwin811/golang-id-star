@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  # Service Employee (Port 8080)
+  employee-srv:
+    build: ./service-employee
+    ports:
+      - "8080:8080"
+    networks:
+      - idstar-network
+
+  # Service Customer (Port 8081)
+  customer-srv:
+    build: ./service-customer
+    ports:
+      - "8081:8081"
+    networks:
+      - idstar-network
+
+networks:
+  idstar-network:
+    driver: bridge
